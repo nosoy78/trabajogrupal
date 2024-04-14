@@ -1,75 +1,85 @@
-*{
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    box-sizing:0;
-}
-header{
-    background: #BE5A38;
-    height: 3em;
-    display: flex;
-    justify-content: space-between;
+* {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-header .logo{
-    padding-top: 0.7em;
+header {
+  background: #074173;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  padding-top: 0.7em;
 }
 
 header nav {
-    padding: 0.8em;
-    
+  padding: 0.8em;
+
 }
 
-header nav  a{
-    text-decoration: none;
-    color: black;
-    padding-right: 0.4em;
-    border-radius: 25%;    
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 0.4em;
+  border-radius: 25%;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background: salmon;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #registro {
-    width: 80%;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input, button {
-    margin-bottom: 10px;
-    padding: 8px;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  footer {
-    background-color: #BE5A38;
-    padding: 10px;
-    text-align: center;
-    color: white;
-     }
+  font-family: Arial, sans-serif;
+  background: #1679AB;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+#registro {
+  background-color:#5DEBD7;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #5DEBD7;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}

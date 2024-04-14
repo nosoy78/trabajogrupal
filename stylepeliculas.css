@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 header{
-    background: #BE5A38;
+    background:  #074173;
     height: 3em;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header nav  a{
 }
 body {
     font-family: Arial, sans-serif;
-    background: salmon;
+    background: #1679AB;
   
   }
   h1 {
@@ -62,8 +62,8 @@ body {
   text-align: center; 
 }
 footer {
-  background-color: #BE5A38;
-  padding: 10px;
-  text-align: center;
-  color: white;
+  background-color: #5DEBD7;
+    padding: 10px;
+    text-align: center;
+    color: black;
    }
