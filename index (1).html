@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grupo10:tarea1</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/pngtree-movie-board-icon-image_1455346.jpg" width="60" height="60"
+                alt="logo de la organizacion">
+        </div>
+        <nav>
+            <a href="index (1).html">Inicio</a>
+            <a href="peliculas.html">Peliculas</a>
+            <a href="contactos.html">Contactos</a>
+            <a href="formularioregistro.html">Registrarse</a>
+            <a href="formulariologin.html">Iniciar Secion</a>
+
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="h1">
+            <h1>Bienvenidos a nuestra Página "De peliculas" </h1>
+        </div>
+
+        <div class="img_principal">
+
+            <img src="img/banner-1155437_1280.webp" width="1343" height="400" alt="imagen de la organización">
+
+        </div>
+
+        <h1>Ultimas peliculas</h1>
+
+        <section class="contenido">
+            
+            
+            <article class="pelicula">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=Way9Dexny3w&pp=ygUPRHVuYTogUGFydGUgZG9z">
+                        <img src="img/dune.avif" alt="Imagen de pelicula1">
+                    </a>
+                    <h2>Duna: Parte dos</h2>
+
+                </div>
+                <div class="texto">
+                    <p>Sigue la mítica jornada de Paul Atreides mientras se une con Chani y los Fremen en su camino
+                        hacia la venganza contra los conspiradores que destruyeron a su familia. Enfrentado a una
+                        elección entre el amor de su vida y el destino del universo conocido, Paul se esfuerza por
+                        prevenir un terrible futuro que solo él puede prever.
+
+                        Genero: Acción, Aventura, Ciencia ficción
+                        Actores: Timothée Chalamet, Zendaya, Rebecca Ferguson, Josh Brolin, Austin Butler, Florence
+                        Pugh, Dave Bautista, Christopher Walken, Léa Seydoux, Stellan Skarsgård, Charlotte Rampling,
+                        Javier Bardem, Molly Mcowan, Rex Adams, Ana Cilas</p>
+                </div>
+                <button onclick="expandirTexto(0)">Expandir</button>
+
+            </article>
+            <article class="pelicula">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=rmoneJ_797s&pp=ygUhR29kemlsbGEgeSBLb25nOiBFbCBudWV2byBpbXBlcmlv">
+                        <img src="img/2YqZ6IyFk7menirwziJvfoVvSOh.avif" alt="Imagen de pelicula2">
+                    </a>
+                    <h2>Godzilla y Kong: El nuevo imperio</h2>
+
+                </div>
+                <div class="texto">
+                    <p>Una aventura cinematográfica completamente nueva, que enfrentará al todopoderoso Kong y al
+                        temible Godzilla contra una colosal amenaza desconocida escondida dentro de nuestro mundo. La
+                        nueva y épica película profundizará en las historias de estos titanes, sus orígenes y los
+                        misterios de Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a
+                        estos seres extraordinarios y los unió a la humanidad para siempre.
+
+                        Genero: Acción, Ciencia ficción, Aventura
+                        Actores: Rebecca Hall, Kaylee Hottle, Brian Tyree Henry, Dan Stevens, Alex Ferns, Fala Chen,
+                        Rachel House, Cassie Riley, Jordy Campbell, Ron Smyck, Chantelle Jamieson, Greg Hatton, Kevin
+                        Copeland, Tess Dobre, Tim Carroll</p>
+                </div>
+                <button onclick="expandirTexto(1)">Expandir</button>
+            </article>
+            <article class="pelicula">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=kg3Q63gzF6I&pp=ygUPS3VuZyBGdSBQYW5kYSA0">
+                        <img src="img/panda.avif" alt="Imagen de pelicula3">
+                    </a>
+                    <h2>Kung Fu Panda 4</h2>
+
+                </div>
+                <div class="texto">
+                    <p>Po se está preparando para convertirse en el líder espiritual de su Valle de la Paz, pero también
+                        necesita a alguien que ocupe su lugar como Guerrero Dragón. Como tal, entrenará a un nuevo
+                        practicante de kung fu para el lugar y se encontrará con un villano llamado Camaleón que evoca
+                        villanos del pasado.
+
+                        Genero: Acción, Aventura, Animación, Comedia, Familia
+                        Actores: Jack Black, Bryan Cranston, Dustin Hoffman, Awkwafina, Viola Davis, James Hong, Ian
+                        McShane, Ke Huy Quan, Ronny Chieng, Lori Tan Chinn, Seth Rogen, Jimmy Donaldson, James Murray,
+                        James Sie, Cedric Yarbrough</p>
+                </div>
+                <button onclick="expandirTexto(2)">Expandir</button>
+            </article>
+        </section>
+        <script>
+            function expandirTexto(indice) {
+                var textos = document.querySelectorAll('.texto');
+                var textoDiv = textos[indice];
+                if (textoDiv.style.maxHeight) {
+                    textoDiv.style.maxHeight = null;
+                } else {
+                    textoDiv.style.maxHeight = textoDiv.scrollHeight + "px";
+                }
+            }
+        </script>
+
+    </main>
+
+
+
+    <footer>
+        <div class="logo">
+            <img src="img/pngtree-movie-board-icon-image_1455346.jpg" width="60" height="60"
+                alt="logo de la organizacion">
+        </div>
+        <div>
+            <a href="https://ar.linkedin.com">
+                <img src="img/39a5ae84afcd8cd690f37e65f7d94798.jpg" alt="Descripción de la imagen" width="30"
+                    height="30">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="img/85c4c0200f19a2bf70a1b091559dbcf6.png" alt="Descripción de la imagen" width="30"
+                    height="30">
+            </a>
+            <a href="https://twitter.com">
+                <img src="img/x_el_nuevo_logo_minimalista_de_twitter_que_sustituyo_el_pajarito_azul.jpg"
+                    alt="Descripción de la imagen" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="img/insta_oscuro.png" alt="Descripción de la imagen" width="30" height="30">
+            </a>
+        </div>
+        <div>
+            <h3>
+                <p>Derechos Reservados 2024</p>
+            </h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>

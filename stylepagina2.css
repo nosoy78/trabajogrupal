@@ -1,0 +1,64 @@
+*{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #BE5A38;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    padding-top: 0.7em;
+}
+
+header nav {
+    padding: 0.8em;
+    
+}
+
+header nav  a{
+    text-decoration: none;
+    color: black;
+    padding-right: 0.4em;
+    border-radius: 25%;    
+}
+body {
+    font-family: Arial, sans-serif;
+    background: salmon;
+  }
+  h1 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .pelicula {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .pelicula img {
+    max-width: 80px;
+    float: left;
+    margin-right: 10px;
+  }
+  .pelicula h2 {
+    margin-top: 0;
+  }
+  .container {
+    text-align: center; 
+  }
+  footer {
+    background-color: #BE5A38;
+    padding: 10px;
+    text-align: center;
+    color: white;
+     }
